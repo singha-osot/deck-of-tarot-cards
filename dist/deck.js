@@ -665,15 +665,15 @@ var Deck = (function () {
     }
   }
 
-  var maxZ = 52;
+  var maxZ = 56;
 
   function Card(i) {
     var transform = prefix('transform');
 
     // calculate rank/suit, etc..
-    var rank = i % 13 + 1;
-    var suit = i / 13 | 0;
-    var z = (52 - i) / 4;
+    var rank = i % 14 + 1;
+    var suit = i / 14 | 0;
+    var z = (56 - i) / 4;
 
     // create elements
     var $el = createElement('div');
@@ -910,7 +910,7 @@ var Deck = (function () {
 
   function SuitName(suit) {
     // return suit name from suit value
-    return suit === 0 ? 'spades' : suit === 1 ? 'hearts' : suit === 2 ? 'clubs' : suit === 3 ? 'diamonds' : 'joker';
+    return suit === 0 ? 'wands' : suit === 1 ? 'pents' : suit === 2 ? 'cups' : suit === 3 ? 'swords' : 'joker';
   }
 
   function addListener(target, name, listener) {
@@ -923,7 +923,7 @@ var Deck = (function () {
 
   function Deck() {
     // init cards array
-    var cards = new Array(58);
+    var cards = new Array(56);
 
     var $el = createElement('div');
     var self = observable({ mount: mount, unmount: unmount, cards: cards, $el: $el });

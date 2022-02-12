@@ -148,58 +148,6 @@ body {
   padding: 0.15rem 0.05rem;
   width: 0.5rem;
 }
-.card.rank1:before,
-.card.rank1:after {
-  content: "A";
-}
-.card.rank2:before,
-.card.rank2:after {
-  content: "2";
-}
-.card.rank3:before,
-.card.rank3:after {
-  content: "3";
-}
-.card.rank4:before,
-.card.rank4:after {
-  content: "4";
-}
-.card.rank5:before,
-.card.rank5:after {
-  content: "5";
-}
-.card.rank6:before,
-.card.rank6:after {
-  content: "6";
-}
-.card.rank7:before,
-.card.rank7:after {
-  content: "7";
-}
-.card.rank8:before,
-.card.rank8:after {
-  content: "8";
-}
-.card.rank9:before,
-.card.rank9:after {
-  content: "9";
-}
-.card.rank10:before,
-.card.rank10:after {
-  content: "10";
-}
-.card.rank11:before,
-.card.rank11:after {
-  content: "J";
-}
-.card.rank12:before,
-.card.rank12:after {
-  content: "Q";
-}
-.card.rank13:before,
-.card.rank13:after {
-  content: "K";
-}
 .card.spades.rank1 .face {
   background-image: url("faces/0_1.svg");
 }
@@ -364,6 +312,174 @@ body {
 }
 .card.joker.rank3 .face {
   background-image: url("faces/4_3.svg");
+}
+.card.wands.rank1 .face {
+  background-image: url("faces/tarot_wands_01.jpg");
+}
+.card.wands.rank2 .face {
+  background-image: url("faces/tarot_wands_02.jpg");
+}
+.card.wands.rank3 .face {
+  background-image: url("faces/tarot_wands_03.jpg");
+}
+.card.wands.rank4 .face {
+  background-image: url("faces/tarot_wands_04.jpg");
+}
+.card.wands.rank5 .face {
+  background-image: url("faces/tarot_wands_05.jpg");
+}
+.card.wands.rank6 .face {
+  background-image: url("faces/tarot_wands_06.jpg");
+}
+.card.wands.rank7 .face {
+  background-image: url("faces/tarot_wands_07.jpg");
+}
+.card.wands.rank8 .face {
+  background-image: url("faces/tarot_wands_08.jpg");
+}
+.card.wands.rank9 .face {
+  background-image: url("faces/tarot_wands_09.jpg");
+}
+.card.wands.rank10 .face {
+  background-image: url("faces/tarot_wands_10.jpg");
+}
+.card.wands.rank11 .face {
+  background-image: url("faces/tarot_wands_11.jpg");
+}
+.card.wands.rank12 .face {
+  background-image: url("faces/tarot_wands_12.jpg");
+}
+.card.wands.rank13 .face {
+  background-image: url("faces/tarot_wands_13.jpg");
+}
+.card.wands.rank14 .face {
+  background-image: url("faces/tarot_wands_14.jpg");
+}
+.card.pents.rank1 .face {
+  background-image: url("faces/tarot_pents_01.jpg");
+}
+.card.pents.rank2 .face {
+  background-image: url("faces/tarot_pents_02.jpg");
+}
+.card.pents.rank3 .face {
+  background-image: url("faces/tarot_pents_03.jpg");
+}
+.card.pents.rank4 .face {
+  background-image: url("faces/tarot_pents_04.jpg");
+}
+.card.pents.rank5 .face {
+  background-image: url("faces/tarot_pents_05.jpg");
+}
+.card.pents.rank6 .face {
+  background-image: url("faces/tarot_pents_06.jpg");
+}
+.card.pents.rank7 .face {
+  background-image: url("faces/tarot_pents_07.jpg");
+}
+.card.pents.rank8 .face {
+  background-image: url("faces/tarot_pents_08.jpg");
+}
+.card.pents.rank9 .face {
+  background-image: url("faces/tarot_pents_09.jpg");
+}
+.card.pents.rank10 .face {
+  background-image: url("faces/tarot_pents_10.jpg");
+}
+.card.pents.rank11 .face {
+  background-image: url("faces/tarot_pents_11.jpg");
+}
+.card.pents.rank12 .face {
+  background-image: url("faces/tarot_pents_12.jpg");
+}
+.card.pents.rank13 .face {
+  background-image: url("faces/tarot_pents_13.jpg");
+}
+.card.pents.rank14 .face {
+  background-image: url("faces/tarot_pents_14.jpg");
+}
+.card.cups.rank1 .face {
+  background-image: url("faces/tarot_cups_01.jpg");
+}
+.card.cups.rank2 .face {
+  background-image: url("faces/tarot_cups_02.jpg");
+}
+.card.cups.rank3 .face {
+  background-image: url("faces/tarot_cups_03.jpg");
+}
+.card.cups.rank4 .face {
+  background-image: url("faces/tarot_cups_04.jpg");
+}
+.card.cups.rank5 .face {
+  background-image: url("faces/tarot_cups_05.jpg");
+}
+.card.cups.rank6 .face {
+  background-image: url("faces/tarot_cups_06.jpg");
+}
+.card.cups.rank7 .face {
+  background-image: url("faces/tarot_cups_07.jpg");
+}
+.card.cups.rank8 .face {
+  background-image: url("faces/tarot_cups_08.jpg");
+}
+.card.cups.rank9 .face {
+  background-image: url("faces/tarot_cups_09.jpg");
+}
+.card.cups.rank10 .face {
+  background-image: url("faces/tarot_cups_10.jpg");
+}
+.card.cups.rank11 .face {
+  background-image: url("faces/tarot_cups_11.jpg");
+}
+.card.cups.rank12 .face {
+  background-image: url("faces/tarot_cups_12.jpg");
+}
+.card.cups.rank13 .face {
+  background-image: url("faces/tarot_cups_13.jpg");
+}
+.card.cups.rank14 .face {
+  background-image: url("faces/tarot_cups_14.jpg");
+}
+.card.swords.rank1 .face {
+  background-image: url("faces/tarot_swords_01.jpg");
+}
+.card.swords.rank2 .face {
+  background-image: url("faces/tarot_swords_02.jpg");
+}
+.card.swords.rank3 .face {
+  background-image: url("faces/tarot_swords_03.jpg");
+}
+.card.swords.rank4 .face {
+  background-image: url("faces/tarot_swords_04.jpg");
+}
+.card.swords.rank5 .face {
+  background-image: url("faces/tarot_swords_05.jpg");
+}
+.card.swords.rank6 .face {
+  background-image: url("faces/tarot_swords_06.jpg");
+}
+.card.swords.rank7 .face {
+  background-image: url("faces/tarot_swords_07.jpg");
+}
+.card.swords.rank8 .face {
+  background-image: url("faces/tarot_swords_08.jpg");
+}
+.card.swords.rank9 .face {
+  background-image: url("faces/tarot_swords_09.jpg");
+}
+.card.swords.rank10 .face {
+  background-image: url("faces/tarot_swords_10.jpg");
+}
+.card.swords.rank11 .face {
+  background-image: url("faces/tarot_swords_11.jpg");
+}
+.card.swords.rank12 .face {
+  background-image: url("faces/tarot_swords_12.jpg");
+}
+.card.swords.rank13 .face {
+  background-image: url("faces/tarot_swords_13.jpg");
+}
+.card.swords.rank14 .face {
+  background-image: url("faces/tarot_swords_14.jpg");
 }
 @media (max-width: 540px) {
   #topbar {
