@@ -1,7 +1,7 @@
 {
-  "name": "deck-of-cards",
+  "name": "deck-of-tarot",
   "version": "0.1.9",
-  "description": "HTML5 Deck of Cards",
+  "description": "HTML5 Deck of Tarot",
   "main": "dist/deck.min.js",
   "module": "lib/deck.js",
   "jsnext:main": "lib/deck.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pakastin/deck-of-cards.git"
+    "url": "git+https://github.com/singhanat/deck-of-tarot.git"
   },
   "keywords": [
     "html5",
@@ -23,18 +23,18 @@
     "of",
     "cards"
   ],
-  "author": "Juha Lindstedt",
+  "author": "Singhanat Rerng-Osot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pakastin/deck-of-cards/issues"
+    "url": "https://github.com/singhanat/deck-of-tarot/issues"
   },
-  "homepage": "https://github.com/pakastin/deck-of-cards#readme",
+  "homepage": "https://github.com/singhanat/deck-of-tarot#readme",
   "devDependencies": {
     "babel": "^5.8.23",
     "chokidar": "^1.0.5",
     "jade": "^1.11.0",
     "nib": "^1.1.0",
-    "rollup": "^0.16.4",
+    "rollup": "^2.0.0",
     "stylus": "^0.52.0",
     "uglify-js": "^2.4.24"
   },
