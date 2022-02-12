@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url=https://deck.of.cards">
     <meta name="description" content="Play with Deck of Cards, source available! Pure vanilla JS – no dependencies.">
     <meta name="keywords" content="HTML5,deck,of,cards,vanilla,javascript,css3,juha,lindstedt,github">
     <meta name="author" content="Juha Lindstedt">
@@ -48,9 +49,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
     <script>
       FastClick.attach(document.body);
-      if ((window.location.protocol !== 'file:') && (window.location.hostname !== 'deck.of.cards')) {
-        window.location.href = 'https://deck.of.cards'
-      }
+      // if ((window.location.protocol !== 'file:') && (window.location.hostname !== 'deck.of.cards')) {
+      //   window.location.href = 'https://deck.of.cards'
+      // }
 
       window.addEventListener('keydown', function (e) {
         if ((e.key === 'h') && (e.ctrlKey || e.metaKey)) {
