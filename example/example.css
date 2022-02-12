@@ -315,6 +315,72 @@ body {
 .card.swords.rank14 .face {
   background-image: url("faces/tarot_swords_14.jpg");
 }
+.card.major.rank0 .face {
+  background-image: url("faces/tarot_major_00.jpg");
+}
+.card.major.rank1 .face {
+  background-image: url("faces/tarot_major_01.jpg");
+}
+.card.major.rank2 .face {
+  background-image: url("faces/tarot_major_02.jpg");
+}
+.card.major.rank3 .face {
+  background-image: url("faces/tarot_major_03.jpg");
+}
+.card.major.rank4 .face {
+  background-image: url("faces/tarot_major_04.jpg");
+}
+.card.major.rank5 .face {
+  background-image: url("faces/tarot_major_05.jpg");
+}
+.card.major.rank6 .face {
+  background-image: url("faces/tarot_major_06.jpg");
+}
+.card.major.rank7 .face {
+  background-image: url("faces/tarot_major_07.jpg");
+}
+.card.major.rank8 .face {
+  background-image: url("faces/tarot_major_08.jpg");
+}
+.card.major.rank9 .face {
+  background-image: url("faces/tarot_major_09.jpg");
+}
+.card.major.rank10 .face {
+  background-image: url("faces/tarot_major_10.jpg");
+}
+.card.major.rank11 .face {
+  background-image: url("faces/tarot_major_11.jpg");
+}
+.card.major.rank12 .face {
+  background-image: url("faces/tarot_major_12.jpg");
+}
+.card.major.rank13 .face {
+  background-image: url("faces/tarot_major_13.jpg");
+}
+.card.major.rank14 .face {
+  background-image: url("faces/tarot_major_14.jpg");
+}
+.card.major.rank15 .face {
+  background-image: url("faces/tarot_major_15.jpg");
+}
+.card.major.rank16 .face {
+  background-image: url("faces/tarot_major_16.jpg");
+}
+.card.major.rank17 .face {
+  background-image: url("faces/tarot_major_17.jpg");
+}
+.card.major.rank18 .face {
+  background-image: url("faces/tarot_major_18.jpg");
+}
+.card.major.rank19 .face {
+  background-image: url("faces/tarot_major_19.jpg");
+}
+.card.major.rank20 .face {
+  background-image: url("faces/tarot_major_20.jpg");
+}
+.card.major.rank21 .face {
+  background-image: url("faces/tarot_major_21.jpg");
+}
 @media (max-width: 540px) {
   #topbar {
     text-align: left;
